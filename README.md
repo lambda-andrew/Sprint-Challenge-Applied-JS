@@ -36,13 +36,20 @@ Edit this document to include your answers after each question. Make sure to lea
 
 2. What is an event?
 
-  
+  an event is usaually an input method
 
 3. What is an event listener?
 
+  and event listener is waiting for a input 
+
 4. Why would we convert a NodeList into an Array?
 
+so we can access it and use it as we like 
+
 5. What is a component?
+
+
+
 
 ### Git Set up
 
