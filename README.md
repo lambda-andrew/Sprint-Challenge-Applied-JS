@@ -32,22 +32,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
   
-  the DOM is something used to minipulate documents or objects in a broswer
+  the DOM is something used to minipulate documents,items, and objects in a broswer.
 
 2. What is an event?
 
-  an event is usaually an input method
+  a event is used to work with functions to
+  and to minipulate data in html
 
 3. What is an event listener?
 
-  and event listener is waiting for a input 
+  an event listener is waiting for input so something can be changed or used 
 
 4. Why would we convert a NodeList into an Array?
 
 so we can access it and use it as we like 
 
 5. What is a component?
-
+there are different types of components there are but the ones we used are build from css html and javascript 
 
 
 
