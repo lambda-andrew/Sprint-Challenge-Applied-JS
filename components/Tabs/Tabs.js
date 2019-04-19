@@ -60,13 +60,12 @@ class TabCard {
 
 }
 
-/* START HERE: 
+/* START HERE: */
 
-- Select all classes named ".tab" and assign that value to the tabs variable
+// - Select all classes named ".tab" and assign that value to the tabs variable
+let tabs = document.querySelectorAll('.tab');
 
-- With your selection in place, now chain a .forEach() method onto the tabs variable to iterate over the DOM NodeList
+// - With your selection in place, now chain a .forEach() method onto the tabs variable to iterate over the DOM NodeList
+// - In your .forEach() method's callback function, return a new instance of TabLink and pass in each tab as a parameter
+tabs.forEach(item => new TabLink(item));
 
-- In your .forEach() method's callback function, return a new instance of TabLink and pass in each tab as a parameter
-
-*/
-let tabs = document.querySelectorAll();
