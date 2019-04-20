@@ -78,11 +78,11 @@ class TabCard {
 */
 
 //get dom elements and store them in as tabs. iterate over the nodelist and create a new object. 
-//let tabs = document.querySelectorAll('.tab').forEach( tab => new TabLink(tab));
+let tabs = document.querySelectorAll('.tab').forEach( tab => new TabLink(tab));
 
 
 //or 
-const tabs = document.querySelectorAll('.tab');
-tabs.forEach(function(tab){
-return new TabLink(tab);
-});
+// const tabs = document.querySelectorAll('.tab');
+// tabs.forEach(function(tab){
+// return new TabLink(tab);
+// });
