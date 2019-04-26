@@ -30,41 +30,36 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
-1. What is the DOM?
+1. [/] What is the DOM?
+        The DOM stands for Document Object Model, it's an object representing the html elements in a webpage. Basically it creates an interface that lets   us interact and manipulate the page, its content, or structure.
 
-2. What is an event?
+2. [/] What is an event?
+        Any and every interfaction on a site is called an Event. For example, a click, moving the mouse, scrolling the page, or pressing a key on the       keyboard, are all events on the page which can be detected. Through the use of an event listener and callback, we can track when these occur. 
 
-3. What is an event listener?
+3. [/] What is an event listener?
+        An event listener is when we choose specific elements to listen to specific events and then fire a callback when that event occurs. This is done    through using the '.addEventListener' method on an element. It will take in two arguments, the event to listen for and the callback to fire. 
 
-4. Why would we convert a NodeList into an Array?
+4. [/] Why would we convert a NodeList into an Array?
+        With the native JS ES6 release, new methods become available for working with arrays: Array.forEach(), every(), some(), filter() etc.
+            However, you can't use those elements when using a querySelectorAll(), because that returns a NodeList, not an array.
+                So we convert a NodeList into an Array to fully utilize the new methods. Nodelists are originaly browser API. 
 
-5. What is a component?
+5. [/] What is a component?
+        Components are building blocks for modern application development. They're made of several parts: HTML, CSS, or JavaScript can be brought together  to be reused in a website or application. We can use JS to consume HTML data and output the component content into a DOM.
 
 ### Git Set up
 
-* [ ] Fork the project into your GitHub user account
-* [ ] Clone the forked project into a directory on your machine
-* [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
-* [ ] You are now ready to build this project with your preferred IDE
+* [/] Fork the project into your GitHub user account
+* [/] Clone the forked project into a directory on your machine
+* [/] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
+* [/] You are now ready to build this project with your preferred IDE
 
 ## Minimum Viable Product
 
 Your finished project must include all of the following requirements:
 
-* [ ] Look through the HTML code paying particular attention to the Tabs component and the Cards components. You will notice they share a data attribute. We will be using this data attribute to determine which cards should show when each tab is selected.
+* [/] Look through the HTML code paying particular attention to the Tabs component and the Cards components. You will notice they share a data attribute. We will be using this data attribute to determine which cards should show when each tab is selected.
 
-* [ ] Following the instructions in the `Tabs.js` file, complete the `TabLink`, and `TabCard` class components. It will look and feel very similar to the last project we worked on, but with a twist. Now, instead of one `Item` to display, we will need to display a collection of `Cards`. Think about ways to iterate over an array and manipulate each item.  **Note: You will need to un-comment the code after the lines of instructions.  The code is commented out so you can work error-free**
+* [/] Following the instructions in the `Tabs.js` file, complete the `TabLink`, and `TabCard` class components. It will look and feel very similar to the last project we worked on, but with a twist. Now, instead of one `Item` to display, we will need to display a collection of `Cards`. Think about ways to iterate over an array and manipulate each item.  **Note: You will need to un-comment the code after the lines of instructions.  The code is commented out so you can work error-free**
 
-* [ ] Once you get your `Tab` component working properly add a couple more articles yourself and check out how it works.
-
-## Stretch Problems
-
-Your stretch challenge is to write the functionality of a `Carousel` component. You have the HTML and CSS already in place, simply un-comment the HTML in the `index.html` file. This is an advanced challenge, so you are not expected to be able to complete it. If you begin and don't finish, you should still submit with what you have. You may reference the `Tabs.js` file for assistance.
-
-* [ ] Complete the carousel functionality in `Carousel.js`
-
-* [ ] If you complete the Carousel, add functionality so that the carousel slides when the buttons are pressed instead of just appearing.
-
-* [ ] Create an 'infinite loop' carousel. In which as long as you click on an arrow, the array of images will loop over itself.
-
-* [ ] If you have finished the above, play around with the styling on all the components, and understand how each is built.
+* [/] Once you get your `Tab` component working properly add a couple more articles yourself and check out how it works.
