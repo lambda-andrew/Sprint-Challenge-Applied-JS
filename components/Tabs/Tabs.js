@@ -3,6 +3,7 @@ class TabLink {
     // assign this.tabElement to the tabElement DOM reference
     // this.tabElement;
     this.tabElement = tabElement;
+
     // Get the `data-tab` value from this.tabElement and store it here
     // this.tabData = ;
     this.tabData = this.tabElement.dataset.tab
@@ -10,14 +11,15 @@ class TabLink {
 
      // <- Delete this comment block when you work on the if statement
     // Check to see if this.tabData is equal to 'all'
-    if(this.tabData = "all"){
+    if((this.tabData = "all")===true){
       // If `all` is true, select all cards regardless of their data attribute values
       // this.cards = ;
-      this.cards = document.querySelectorAll('.card')
+      this.cards = document.querySelectorAll('.card');
     } else {
       // else if `all` is false, only select the cards with matching this.tabData values
       // this.cards = ;
-      this.cards = document.querySelector(`.card[data-tab="${this.data}"]`)
+      this.cards = document.querySelectorAll(`.card[data-tab="${this.tabData}"]`)
+
     }
     // / <- Delete this comment block when you work on the if statement
 
@@ -56,11 +58,13 @@ class TabCard {
     // Assign this.cardElement to the cardElement DOM reference
     // this.cardElement;
     this.cardElement = cardElement;
+    // console.log(this.cardElement)
   }
   selectCard(){
     // Update the style of this.cardElement to display = "flex"
     // this.cardElement;
     this.cardElement.style.display = "flex";
+
   }
 
 }
